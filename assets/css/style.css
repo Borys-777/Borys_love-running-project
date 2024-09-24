@@ -70,6 +70,7 @@ h1 {
     left: 0;
     padding: 0;
     display: none;
+    top: 100%
 
   
   }
@@ -79,14 +80,39 @@ h1 {
   display: block;
 }
 
+#nv-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 1rem;
+}
+
 /* Main content*/
 main {
   background-color: white;
   /* Make main element take up any surplus space to push footer down*/
   flex: 1 0 auto;
+  margin-top: 47px;
+  /* maybe need bigger margin-top here*/
 }
 
 /*Footer*/
 footer {
   background-color: #1a1aff; 
+}
+
+/* Media query: tablets and larger (768 px and up) */
+@media screen and (min-width: 768px) {
+  /* Header*/ 
+  nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+
+  #menu {
+    display: flex;
+  }
 }
