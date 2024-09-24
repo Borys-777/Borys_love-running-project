@@ -30,6 +30,7 @@ header {
   position:fixed;
   z-index: 99;
   width: 100%; 
+  box-shadow: 0;
 }
 
 header a {
@@ -40,6 +41,21 @@ header a {
 h1 {
   font-family: 'Inter', sans-serif; 
   text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+
+  
+}
+
+#menu {
+  color:black; 
+  letter-spacing: 1px;
+  font-size: 110%;
+  list-style-type: none;
+}
+
+#menu > li {
+  margin-bottom: 1em;
 }
 
 /* Main content*/
