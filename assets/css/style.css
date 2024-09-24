@@ -27,6 +27,10 @@ header {
   background-color: #1a1aff;
 }
 
+h1 {
+  font-family: 'Inter', sans-serif; 
+}
+
 /* Main content*/
 main {
   background-color: white;
