@@ -24,17 +24,17 @@ body {
 
 /* Header*/
 header {
-  background-color: green;
+  background-color: #1a1aff;
 }
 
 /* Main content*/
 main {
-  background-color: burlywood;
+  background-color: white;
   /* Make main element take up any surplus space to push footer down*/
   flex: 1 0 auto;
 }
 
 /*Footer*/
 footer {
-  background-color: darkgoldenrod;
+  background-color: #1a1aff; 
 }
