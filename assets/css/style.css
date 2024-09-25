@@ -72,7 +72,6 @@ h1 {
     display: none;
     top: 100%
 
-  
   }
  
 /* Nav toggle */
@@ -115,4 +114,17 @@ footer {
   #menu {
     display: flex;
   }
+
+  #menu > li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  #nav-toggle {
+    display: none;
+  }
+
 }
