@@ -89,11 +89,18 @@ h1 {
 
 /* Main content*/
 main {
-  background-color: white;
+  
   /* Make main element take up any surplus space to push footer down*/
   flex: 1 0 auto;
-  margin-top: 47px;
-  /* maybe need bigger margin-top here*/
+  margin-top: 3%;
+  /* maybe need bigger margin-top here. In the video recomended= 47px*/
+}
+
+/* Hero section*/
+#hero {
+  height: 600px;
+  width: 100%;
+  background-color: lightgreen;
 }
 
 /*Footer*/
