@@ -34,7 +34,7 @@ h1, h2, h3 {
 header {
   background-color: rgb(206, 244, 206);
   padding: 0 0.5rem;
-  position:fixed;
+  position: fixed;
   z-index: 99;
   width: 100%; 
   box-shadow: 0;
@@ -55,6 +55,7 @@ header a {
   letter-spacing: 1px;
   font-size: 110%;
   list-style-type: none;
+  background-color: rgb(206, 244, 206);
 }
 
 #menu > li {
@@ -119,6 +120,7 @@ main {
 
 #cover-text > h2 {
   color: white; 
+  padding-left: 2px;
 }
 
 /*Footer*/
@@ -179,7 +181,8 @@ main {
     */ 
     /* Hero */ 
     #cover-text {
-      width: 80%;
+      width: 600px;
+      left: 5px; 
       
     }
 }
