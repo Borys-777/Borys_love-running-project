@@ -32,8 +32,8 @@ h1, h2, h3 {
 
 /* Header*/
 header {
-  background-color: white;
-  padding: 0 1rem;
+  background-color: rgb(206, 244, 206);
+  padding: 0 0.5rem;
   position:fixed;
   z-index: 99;
   width: 100%; 
@@ -105,16 +105,16 @@ main {
 
 #cover-text {
   /* Final RGB value sets the opacity, so its semi-transparent*/ 
-  background-color: rgba(10, 10, 9, 0);
-  font-size: 100%;
+  background-color: rgba(22, 22, 20, 0.2);
+  font-size: 100%;  /*font-size: 130% */
   position: absolute;
-  top: 0px;
+  /*top: 0px;*/ 
+  /* bottom: 30px; */
   width: 80%;
-  min-height: 80px;
-  padding-top: 20px;
-  padding-left: 5px;
- 
-
+  min-height: 80px;   /* 200px*/
+  padding-top: 20px;   /* 40 px*/
+  padding-left: 2px;   /* 10 px*/
+     
 }
 
 #cover-text > h2 {
@@ -128,6 +128,8 @@ main {
   display: flex;
   justify-content: space-evenly; 
   list-style-type: none;
+  background-color: rgb(206, 244, 206);
+  
 }
 
 #social-networks i {
@@ -175,6 +177,12 @@ main {
     margin-top: 79px; }
 }
     */ 
+    /* Hero */ 
+    #cover-text {
+      width: 80%;
+      
+    }
+}
 
 /* Large devices: laptops and desktops (992 px and up) */
 @media screen and (min-width: 992px) {
