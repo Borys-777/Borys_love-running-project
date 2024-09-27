@@ -402,3 +402,8 @@ align-self: flex-end;
   flex-direction: column;
   width: 750px; 
 }
+
+#plant {
+width: 10px;
+color: #f16c6b;
+}
